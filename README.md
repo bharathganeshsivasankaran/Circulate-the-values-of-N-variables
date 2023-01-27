@@ -18,13 +18,19 @@ print the output which gives a list after circulate the n variables
 ### Step 6: 
 end the program
 ## Program:
+
+```
 def circulate():
      a=eval(input())
      n=int(input())
      c=a[n:]+a[:n]
      print("After circulating the values are:",c)
-     
-## Output: 
+ ```    
+## Output:
+![pyth ex1b](https://user-images.githubusercontent.com/119478098/215004954-4367f457-da3d-4ac4-b244-ac59253a1f73.png)
+
 
 
 ## Result:
+Thus the circulate the n variables are successfully executed
+
